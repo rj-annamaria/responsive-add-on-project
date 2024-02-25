@@ -5,3 +5,10 @@ h1 {
   font-size: 96px;
   line-height: 144px;
 }
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 144px;
+}

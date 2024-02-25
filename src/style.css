@@ -58,7 +58,17 @@ header a {
 }
 footer {
   color: #60e0cb;
+  background-image: linear-gradient(
+      rgba(19, 14, 29, 0.918),
+      rgba(0, 0, 0, 0.904)
+    ),
+    url("../images/1vv-koeln.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  padding: 140px;
 }
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;

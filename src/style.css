@@ -4,9 +4,20 @@ body {
 }
 
 .container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 header {
   background-image: linear-gradient(
       rgba(32, 18, 51, 0.795),
@@ -57,16 +68,45 @@ header a {
   background: #f7f7f8;
 }
 footer {
-  color: #60e0cb;
+  color: #54f0aa;
   background-image: linear-gradient(
-      rgba(19, 14, 29, 0.918),
-      rgba(0, 0, 0, 0.904)
+      rgba(19, 14, 29, 0.938),
+      rgba(0, 0, 0, 0.932)
     ),
     url("../images/1vv-koeln.jpg");
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
   padding: 140px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 
 @media (max-width: 900px) {

@@ -1,5 +1,6 @@
 body {
-  background: rgb(56, 54, 56);
+  background: rgb(197, 197, 197);
+  color: #000000;
   font-family: "Crimson Text", sans-serif;
 }
 
@@ -14,6 +15,13 @@ body {
   grid-gap: 64px;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -67,6 +75,42 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: #f7f7f8;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 10px;
+  letter-spacing: 5px;
+  color: #211b38;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: #19142b;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #181329;
+
+  opacity: 1;
+}
+.Ville {
+  background-color: whitesmoke;
+  padding: 18px;
+
+  border-style: inset;
+  border-radius: 3px;
 }
 footer {
   color: #54f0aa;

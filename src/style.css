@@ -17,6 +17,7 @@ body {
 
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
@@ -54,9 +55,17 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
+.text-center {
+  text-align: center;
+}
 .youtube-video {
-  padding: 70px;
   background-color: #1c1523;
+}
+.responsive-video {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  aspect-ratio: 21/9;
 }
 section {
   max-width: 100%;
@@ -64,7 +73,7 @@ section {
   padding: 100px;
 }
 section.secondary {
-  background: #f8f8f8;
+  background: #ecebeb;
 }
 header {
   background-image: linear-gradient(
@@ -134,21 +143,34 @@ main h3 {
   color: #19142b;
   margin: 0;
 }
+main h4 {
+  font-style: bold;
 
+  font-size: 28px;
+  line-height: 1.5;
+  color: #181329;
+  opacity: 1.5;
+}
+main h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #181329;
+  opacity: 1.5;
+}
 main p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #181329;
-
   opacity: 1;
 }
 
 .Ville {
   background-color: whitesmoke;
   padding: 18px;
-
   border-style: inset;
   border-radius: 3px;
 }

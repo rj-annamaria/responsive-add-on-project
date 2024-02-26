@@ -132,7 +132,7 @@ main h2 {
   margin: 10px 10px;
   letter-spacing: 5px;
   color: #211b38;
-  opacity: 0.6;
+  opacity: 1.2;
   text-transform: uppercase;
 }
 
@@ -162,7 +162,7 @@ main h5 {
 main p {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #181329;
   opacity: 1;
@@ -236,5 +236,18 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+    aspect-ratio: 16 / 9;
   }
 }

@@ -235,8 +235,6 @@ footer a {
   grid-template-columns: 1fr 1fr;
 }
 .spotify {
-  margin-top: 3px;
-  justify-content: left;
 }
 .instagram-embeds {
   margin: 50px 0;
@@ -267,11 +265,9 @@ footer a {
   }
 
   .card-header img {
-    display: none;
     aspect-ratio: 16 / 9;
   }
   .spotify {
-    aspect-ratio: 16 / 9;
     margin: 0 auto;
   }
 }

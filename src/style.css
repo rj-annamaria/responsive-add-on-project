@@ -25,6 +25,7 @@ body {
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0;
 }
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -232,6 +233,9 @@ footer a {
 .spotify {
   margin-top: 3px;
   justify-content: left;
+}
+.instagram-embeds {
+  margin: 50px 0;
 }
 @media (max-width: 900px) {
   header {

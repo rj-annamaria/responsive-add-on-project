@@ -230,8 +230,8 @@ footer a {
   grid-template-columns: 1fr 1fr;
 }
 .spotify {
-  margin-bottom: 0;
-  margin-top: 0px;
+  margin-top: 3px;
+  justify-content: left;
 }
 @media (max-width: 900px) {
   header {

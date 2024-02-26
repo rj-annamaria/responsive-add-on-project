@@ -220,7 +220,15 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+.card-header-him {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.card-header-accessories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
